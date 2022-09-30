@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './CalculationZone.css';
 
 
 const CalculationZone = ({ timeSum }) => {
@@ -22,7 +23,7 @@ const CalculationZone = ({ timeSum }) => {
 
     return (
         <div>
-            <div className="studyContainer">
+            <div className="exerciseContainer">
                 <div className="m-10">
                     <div className="grid grid-cols-4 myProfile">
                         <div>
@@ -88,7 +89,7 @@ const CalculationZone = ({ timeSum }) => {
                         Exercise Details
                     </h1>
                     <div className="flex justify-around myDetails mb-5 bg-gray-200">
-                        <h3 className="font-bold text-xl p-2">Study time</h3>
+                        <h3 className="font-bold text-xl p-2">Exercise time</h3>
                         <h3 className="font-semibold p-2 text-gray-400">
                             {total} seconds
                         </h3>
