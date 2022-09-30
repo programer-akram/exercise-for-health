@@ -1,0 +1,16 @@
+.myPic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.myProfile {
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.m-10 {
+    padding-top: 20px;
+}
+
