@@ -50,7 +50,38 @@ const Main = () => {
                 </div>
             </div>
 
+            <div className="questionnaire">
+                <h2>Some Questionnaire about react</h2>
+                <hr />
+                <h3>1. What does react work?</h3>
 
+                <h4>
+                    React uses a declarative paradigm that makes it easier to
+                    reason about your application and aims to be both efficient
+                    and flexible. It designs simple views for each state in your
+                    application, and React will efficiently update and render
+                    just the right component when your data changes.
+                </h4>
+                <br />
+                <br />
+                <h3>2. What is the difference between props and state?</h3>
+
+                <h4>
+                    Props are used to pass data from one component to another.
+                    The state is a local data storage that is local to the
+                    component only and cannot be passed to other components.
+                </h4>
+                <br />
+                <br />
+                <h3>3. What are the uses of useEffect except API data loading?</h3>
+                <h4>
+                    <p>a. Add an event listener for a button.</p>
+                    <p>b. Perform an action when state or props change.</p>
+                    <p>c. Clean up event listeners when the component unmounts.</p>
+
+
+                </h4>
+            </div>
             
         </div>
     );
