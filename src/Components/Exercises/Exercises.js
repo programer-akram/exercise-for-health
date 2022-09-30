@@ -17,7 +17,9 @@ const Exercises = ({ exercise, handelAddToCart }) => {
                 
             </div>
 
-
+            <div className="card-actions">
+                <button onClick={() => handelAddToCart(exercise)} className="btn w-full btn-success">Add to list</button>
+            </div>
             
         </div>
     );
